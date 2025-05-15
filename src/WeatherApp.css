@@ -1,0 +1,37 @@
+.container {
+    border: 1px solid #ccc;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    color: #fff;
+    border: 1px solid rgb(108, 5, 205);
+    background-color: rgb(108, 5, 205);
+    cursor: pointer;
+    transition: all 0.3s;
+}
+button:hover {
+    opacity: 0.8;
+}
